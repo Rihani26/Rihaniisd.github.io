@@ -1,0 +1,145 @@
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(3, 3, 3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: #000; 
+}
+
+
+.table-of-contents {
+    background-color: #f7c505;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.table-of-contents h2 {
+    font-size: 20px;
+}
+
+.table-of-contents ul {
+    list-style: none;
+}
+
+.table-of-contents li {
+    margin: 5px 0;
+}
+
+/* Styles pour les liens internes */
+a {
+    color: #0071fb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/background.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center; 
+}
+
+header {
+    background-color: rgba(0, 158, 250, 0.772);
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav {
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.table-of-contents {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.table-of-contents a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin: 10px 0;
+}
+
+.content {
+    padding: 20px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 20px 0;
+    color: #fff;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #fff;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+
+#section1 {
+    scroll-margin-top: 40px;
+}
+
+#section2 {
+    scroll-margin-top: 40px;
+}
+
+#section3 {
+    scroll-margin-top: 40px;
+}

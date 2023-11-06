@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/background.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center; 
+}
+
+header {
+    background-color: rgba(0, 158, 250, 0.772);
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav {
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+
+h2 {
+    font-size: 24px;
+    color: #0071fb;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #01266c;
+    margin-top: 10px;
+}
+
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+li {
+    font-size: 16px;
+    color: #000; 
+    margin-top: 5px;
+}
+
+
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+p {
+    font-size: 16px;
+    color: #000; 
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: #000; 
+}
